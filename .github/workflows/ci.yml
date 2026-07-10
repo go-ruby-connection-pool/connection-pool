@@ -31,7 +31,7 @@ jobs:
       - if: runner.os != 'Windows'
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4.10"
+          ruby-version: "4.0.5"
       - if: runner.os != 'Windows'
         run: gem install connection_pool
       - run: go version
